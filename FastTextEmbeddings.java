@@ -10,9 +10,7 @@ public class FastTextEmbeddings {
     }
 
     public double[] getEmbeddings(String word1) {
-        double[] vec1 = this.wiki_model.getWordVector(word1);
-
-        return full_vec;
+        return double[] vec1 = this.wiki_model.getWordVector(word1);
     }
 
     public static void main(String args[]) {
